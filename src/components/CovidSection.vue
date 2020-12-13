@@ -3,7 +3,7 @@
       <h2 class="text-center heading typewriter">COVID GUIDELINES WHILE TRAVEL</h2>
       <div class="card mt-5">
         <h3 class="pl-4 pt-3 subheading">District Covid War Room Helpline Number</h3>
-        <div class="ml-2 pl-md-3 pt-3 pb-3 contacts row">
+        <div class="ml-md-2  pt-3 pb-3 contacts row">
             <div class="ml-3 m-4 m-md-0 col-xs-12 col-sm-11 col-md-5 col-lg-4 col-xl-3 contact">
                 <span class="p-2"><i class="fa fa-phone p-3" aria-hidden="true"></i>0821-2957711</span>
             </div>
@@ -14,7 +14,7 @@
         </div>
 
         <h3 class="pl-4 pt-3 subheading">COVID-19 helpline for citizens under Mysuru Metropolitan jurisdiction.</h3>
-        <div class="ml-2 pl-md-3 pt-3 pb-3 contacts row">
+        <div class="ml-md-2 pt-3 pb-3 contacts row">
             <div class="ml-3 m-4 m-md-0 col-xs-12 col-sm-11 col-md-5 col-lg-4 col-xl-3 contact">
                 <span class="p-2"><i class="fa fa-phone p-3" aria-hidden="true"></i>0821-2519531</span>
             </div>

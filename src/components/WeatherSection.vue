@@ -117,5 +117,14 @@ main {
     text-shadow: 3px 6px rgba(0,0,0,0.25)
 }
 
+@media only screen and (max-width: 776px) {
+    .weather {
+        margin: 0;
+        height: 75vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
 
 </style>

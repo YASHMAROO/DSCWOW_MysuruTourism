@@ -6,25 +6,14 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
                             <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
-                            <p>Plan to have a trip to Mysuru?</p>
-                            <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
-                                <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
-                                <button class="btn btn_get btn_get_two" type="submit">Submit</button>
-                                <p class="mchimp-errmessage" style="display: none;"></p>
-                                <p class="mchimp-sucmessage" style="display: none;"></p>
-                            </form>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
                             <h3 class="f-title f_600 t_color f_size_18">Explore</h3>
                             <ul class="list-unstyled f_list">
-                                <li><a href="#">Destinations</a></li>
-                                <li><a href="#">Events</a></li>
-                                <li><a href="#">Palaces</a></li>
-                                <li><a href="#">Museums</a></li>
-                                <li><a href="#">Wildlife</a></li>
-                                <li><a href="#">Trip on Foot</a></li>
+                                <li><a href="https://www.mysoretourism.org.in/sightseeing-places-to-visit-in-mysore">Destinations</a></li>
+                                <li><a href="https://www.masthmysore.com/events/">Events</a></li>
                             </ul>
                         </div>
                     </div>
@@ -32,12 +21,8 @@
                         <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
                             <h3 class="f-title f_600 t_color f_size_18">Help</h3>
                             <ul class="list-unstyled f_list">
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">About Mysuru</a></li>
-                                <li><a href="#">Site Feedback</a></li>
-                                <li><a href="#">Term &amp; conditions</a></li>
-                                <li><a href="#">Support Policy</a></li>
-                                <li><a href="#">Privacy</a></li>
+                                <li><a href="https://www.makemytrip.com/travel-guide/mysore/faqs.html">FAQ</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Mysore">About Mysuru</a></li>
                             </ul>
                         </div>
                     </div>
@@ -45,10 +30,8 @@
                         <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
                             <h3 class="f-title f_600 t_color f_size_18">Follow us</h3>
                             <div class="f_social_icon">
-                                <a href="#" class="fab fa-facebook"></a>
-                                <a href="#" class="fab fa-twitter"></a>
-                                <a href="#" class="fab fa-linkedin"></a>
-                                <a href="#" class="fab fa-pinterest"></a>
+                                <a href="https://www.facebook.com/Mysore-tourism-1833315676952985/" class="fab fa-facebook"></a>
+                                <a href="https://www.instagram.com/mysurucity_/" class="fab fa-instagram"></a>
                             </div>
                         </div>
                     </div>
