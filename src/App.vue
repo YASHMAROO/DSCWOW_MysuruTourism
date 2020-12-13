@@ -1,28 +1,52 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div v-show="loader" class="loader">
+      <Preloader />
+    </div>   
+    <NavBar v-show="!loader"/>
+    <router-view class="top" v-show="!loader" @hideloader="hideLoader"/>
+    <Footer v-show="!loader"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from './components/NavBar'
+import Footer from './components/PageFooter'
+import Preloader from './components/Preloader'
+// import $ from 'jquery'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    NavBar,
+    Footer,
+    Preloader
+  },
+  data() {
+    return {
+      loader: true,
+      loaderCount: 0
+    }
+  },
+  watch : {
+    // eslint-disable-next-line no-unused-vars
+    $router (to, from) {
+      this.loader = true
+    }
+  },
+  methods: {
+    // eslint-disable-next-line no-unused-vars
+    hideLoader (val) {
+      this.loader = false
+      document.getElementsByTagName('html')[0].style.overflow = 'auto'
+      document.getElementsByTagName('body')[0].style.overflow = 'auto'
+    }
+  } 
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+router-view{
+  position: absolute;
 }
 </style>
