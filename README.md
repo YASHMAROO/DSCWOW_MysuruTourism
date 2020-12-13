@@ -34,8 +34,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### Contributors
 ```
 Team Blinnk@DSC.wow CodeOffDuty
-1. Mayur Narkhede - [ Github ](https://github.com/PrinceMayur007)
-2. Yash Maroo - [ Github ](https://github.com/YASHMAROO)
+1. Mayur Narkhede 
+2. Yash Maroo 
 3. Maseera Ahmed
 
 ```
