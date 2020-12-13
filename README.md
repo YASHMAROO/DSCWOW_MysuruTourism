@@ -1,5 +1,13 @@
 # dscwow_mysuru
 
+### description
+
+```
+Project Mysuru is tourism and travel website which is dynamic and responsive, with added features of Google Maps, Instagram Feeds (curator.io) with Comments, Weather Notch(OpenWeatherApi)
+```
+
+
+
 ## Project setup
 ```
 npm install
@@ -22,3 +30,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Contributors
+```
+Team Blinnk@DSC.wow CodeOffDuty
+1. Mayur Narkhede - [a link](https://github.com/PrinceMayur007)
+2. Yash Maroo - [a link](https://github.com/YASHMAROO)
+3. Maseera Ahmed
